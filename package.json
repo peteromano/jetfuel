@@ -31,7 +31,8 @@
   "main": "./lib/espresso/main.js",
   "bin": "./bin/espresso",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+      "grunt": "~0.3.11"
+  },
   "devDependencies": {}
 }
-
