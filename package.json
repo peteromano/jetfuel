@@ -28,11 +28,9 @@
   "engines": {
     "node": ">= 0.6.0"
   },
-  "main": "./lib/espresso/main.js",
+  "main": "./lib/espresso",
   "bin": "./bin/espresso",
   "scripts": {},
-  "dependencies": {
-      "grunt": "~0.3.11"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
