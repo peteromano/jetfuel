@@ -1,6 +1,6 @@
 {
   "name": "espresso-framework-core",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "title": "Espresso Framework Core",
   "description": "Includes core library and helpers for Espresso framework project",
   "homepage": "https://github.com/peteromano/espresso-framework-core/wiki",
@@ -29,7 +29,9 @@
     "node": ">= 0.6.0"
   },
   "main": "./lib/espresso",
-  "bin": "./bin/espresso",
+  "bin": {
+      "espresso": "./bin/espresso"
+  },
   "directories": {
     "bin": "./bin",
     "lib": "./lib"
