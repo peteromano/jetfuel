@@ -24,6 +24,7 @@ module.exports = function(grunt) {
             ].join(' ');
         try {
             grunt.helper('process.pushd', p);
+            grunt.log.writeln('exec: ' + cli);
             require('child_process').exec(cli);
             grunt.helper('process.popd');
         } catch(e) {
