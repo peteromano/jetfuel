@@ -1,6 +1,6 @@
 {
   "name": "espresso-framework-core",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "title": "Espresso Framework Core",
   "description": "Includes core library and helpers for Espresso framework project",
   "homepage": "https://github.com/peteromano/espresso-framework-core/wiki",
@@ -34,7 +34,9 @@
   "dependencies": {
     "prompt": "~0.2.7",
     "grunt": "~0.3.11",
-    "grunt-jasmine-task": "~0.2.0"
+    "grunt-jasmine-task": "~0.2.0",
+    "closure-compiler": "~0.1.1",
+    "jsdoc-toolkit": "~0.0.1"
   },
   "devDependencies": {}
 }
