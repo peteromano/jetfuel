@@ -1,10 +1,10 @@
 {
-  "name": "espresso-framework-core",
-  "version": "0.1.15",
-  "title": "Espresso Framework Core",
+  "name": "espresso-framework",
+  "version": "0.1.16",
+  "title": "Espresso Framework",
   "description": "Includes core library and helpers for Espresso framework project",
-  "homepage": "https://github.com/peteromano/espresso-framework-core/wiki",
-  "keywords": ["espresso", "espresso-framework", "espresso-framework-core", "espresso-framework-js"],
+  "homepage": "https://github.com/peteromano/espresso-framework/wiki",
+  "keywords": ["espresso", "espresso-project", "espresso-framework", "espresso-js"],
   "author": {
     "name": "Pete Romano",
     "email": "pete.romano@yahoo.com",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peteromano/espresso-framework-core"
+    "url": "https://github.com/peteromano/espresso-framework"
   },
   "bugs": {
-    "url": "https://github.com/peteromano/espresso-framework-core/issues"
+    "url": "https://github.com/peteromano/espresso-framework/issues"
   },
   "license": "MIT",
   "engines": {
