@@ -9,8 +9,8 @@ vows.describe('Version').addBatch({
 			return espresso.version();
 		},
 
-		'version is 0.1.20': function(topic) {
-			assert.equal(topic, '0.1.20');
+		'version is 0.1.21': function(topic) {
+			assert.equal(topic, '0.1.21');
 		}
 	} 
 
