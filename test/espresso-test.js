@@ -1,6 +1,6 @@
 var vows = require('vows'),
 	assert = require('assert'),
-	espresso = require('espresso-framework');
+	espresso = require('../lib/espresso');
 
 vows.describe('Version').addBatch({
 
