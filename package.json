@@ -1,10 +1,10 @@
 {
-  "name": "espresso-framework",
-  "version": "0.1.23",
-  "title": "Espresso Framework",
+  "name": "espresso.framework.core",
+  "version": "0.1.24",
+  "title": "Espresso Framework Core",
   "description": "Includes core library and helpers for Espresso framework project",
-  "homepage": "https://github.com/peteromano/espresso-framework/wiki",
-  "keywords": ["espresso", "espresso-project", "espresso-framework", "espresso-js"],
+  "homepage": "https://github.com/peteromano/espresso.framework.core/wiki",
+  "keywords": ["espresso", "espresso.project", "espresso.framework.core", "espresso.vendor.js.espresso"],
   "author": {
     "name": "Pete Romano",
     "email": "pete.romano@yahoo.com",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peteromano/espresso-framework"
+    "url": "https://github.com/peteromano/espresso.framework.core"
   },
   "bugs": {
-    "url": "https://github.com/peteromano/espresso-framework/issues"
+    "url": "https://github.com/peteromano/espresso.framework.core/issues"
   },
   "license": "MIT",
   "engines": {
@@ -32,13 +32,13 @@
     "man": "./man"
   },
   "scripts": {
-    "test": "node ./test/espresso-test.js"
+    "test": "node ./test/espresso.test.js"
   },
   "dependencies": {
     "prompt": "~0.2.7",
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
-    "espresso-grunt-tasks": "~0.1.0",
+    "espresso.grunt.tasks": "~0.1.0",
     "closure-compiler": "~0.1.1",
     "jsdoc-toolkit": "~0.0.1",
     "vows": "latest"
