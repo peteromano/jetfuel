@@ -1,6 +1,6 @@
 {
   "name": "espresso-framework",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "title": "Espresso Framework",
   "description": "Includes core library and helpers for Espresso framework project",
   "homepage": "https://github.com/peteromano/espresso-framework/wiki",
@@ -38,6 +38,7 @@
     "prompt": "~0.2.7",
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
+    "espresso-grunt-tasks": "~0.1.0",
     "closure-compiler": "~0.1.1",
     "jsdoc-toolkit": "~0.0.1",
     "vows": "latest"
