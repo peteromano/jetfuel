@@ -1,10 +1,10 @@
 {
   "name": "espresso.framework.core",
-  "version": "0.1.26",
+  "version": "0.1.28",
   "title": "espresso.framework.core",
   "description": "Includes core library and helpers for Espresso framework project",
   "homepage": "https://github.com/peteromano/espresso.framework.core/wiki",
-  "keywords": ["espresso", "espresso.project", "espresso.framework.core", "espresso.vendor.js.espresso"],
+  "keywords": ["espresso", "espresso-js", "espresso.framework.core", "espresso.vendor.espresso"],
   "author": {
     "name": "Pete Romano",
     "email": "pete.romano@yahoo.com",
