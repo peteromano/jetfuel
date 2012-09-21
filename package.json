@@ -1,9 +1,9 @@
 {
   "name": "jetfuel.engine.core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "title": "jetfuel.engine.core",
   "description": "Core library for the JetFuel engine.",
-  "homepage": "https://github.com/peteromano/jetfuel.framework.core/wiki",
+  "homepage": "https://github.com/peteromano/jetfuel.engine.core/wiki",
   "keywords": ["jetfuel"],
   "author": {
     "name": "Pete Romano",
@@ -24,7 +24,7 @@
   "main": "./lib/jetfuel",
   "man": "./man/jetfuel.1",
   "bin": {
-      "jetfuel": "./bin/jetfuel"
+    "jetfuel": "./bin/jetfuel"
   },
   "directories": {
     "bin": "./bin",
@@ -37,7 +37,7 @@
   "dependencies": {
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
-    "jetfuel.grunt.tasks": "~0.3.0",
+    "jetfuel.grunt.tasks": "~0.3.1",
     "prompt": "~0.2.7",
     "vows": "latest"
   },
