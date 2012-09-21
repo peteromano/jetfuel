@@ -1,10 +1,10 @@
 {
-  "name": "espresso.framework.core",
-  "version": "0.1.33",
-  "title": "espresso.framework.core",
-  "description": "Includes core library and helpers for Espresso framework project",
-  "homepage": "https://github.com/peteromano/espresso.framework.core/wiki",
-  "keywords": ["espresso", "espresso-js", "espresso.framework.core", "espresso.vendor.espresso"],
+  "name": "jetfuel.engine.core",
+  "version": "0.2.0",
+  "title": "jetfuel.engine.core",
+  "description": "Core library for the JetFuel engine.",
+  "homepage": "https://github.com/peteromano/jetfuel.framework.core/wiki",
+  "keywords": ["jetfuel"],
   "author": {
     "name": "Pete Romano",
     "email": "pete.romano@yahoo.com",
@@ -12,19 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peteromano/espresso.framework.core"
+    "url": "https://github.com/peteromano/jetfuel.engine.core"
   },
   "bugs": {
-    "url": "https://github.com/peteromano/espresso.framework.core/issues"
+    "url": "https://github.com/peteromano/jetfuel.engine.core/issues"
   },
   "license": "MIT",
   "engines": {
     "node": ">= 0.6.0"
   },
-  "main": "./lib/espresso",
-  "man": "./man/espresso.1",
+  "main": "./lib/jetfuel",
+  "man": "./man/jetfuel.1",
   "bin": {
-      "espresso": "./bin/espresso"
+      "jetfuel": "./bin/jetfuel"
   },
   "directories": {
     "bin": "./bin",
@@ -32,12 +32,12 @@
     "man": "./man"
   },
   "scripts": {
-    "test": "node ./test/espresso.test.js"
+    "test": "node ./test/jetfuel.test.js"
   },
   "dependencies": {
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
-    "espresso.grunt.tasks": "~0.2.1",
+    "jetfuel.grunt.tasks": "~0.3.0",
     "prompt": "~0.2.7",
     "vows": "latest"
   },

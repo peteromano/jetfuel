@@ -1,4 +1,4 @@
-espresso-framework
-==================
+jetfuel.engine.core
+===================
 
-Core library for Espresso JavaScript framework project
+Core library for the JetFuel engine.
