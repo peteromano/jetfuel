@@ -1,6 +1,6 @@
 {
   "name": "jetfuel.engine.core",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "title": "jetfuel.engine.core",
   "description": "Core library for the JetFuel engine.",
   "homepage": "https://github.com/peteromano/jetfuel.engine.core/wiki",
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">= 0.6.0"
   },
-  "main": "./lib/jetfuel",
+  "main": "./lib",
   "man": "./man/jetfuel.1",
   "bin": {
     "jetfuel": "./bin/jetfuel"
@@ -32,14 +32,15 @@
     "man": "./man"
   },
   "scripts": {
-    "test": "node ./test/jetfuel.test.js"
+    "test": "node ./test/index.test.js"
   },
   "dependencies": {
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
     "jetfuel.grunt.tasks": "~0.3.1",
-    "prompt": "~0.2.7",
-    "vows": "latest"
+    "prompt": "~0.2.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vows": "latest"
+  }
 }

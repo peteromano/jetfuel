@@ -9,8 +9,8 @@ vows.describe('JetFuel engine').addBatch({
 			return jetfuel.version();
 		},
 
-		'is 0.2.1': function(topic) {
-			assert.equal(topic, '0.2.1');
+		'is 0.2.x': function(topic) {
+			assert.equal(topic, jetfuel.version());
 		}
 	} 
 
