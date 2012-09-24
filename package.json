@@ -1,6 +1,6 @@
 {
   "name": "jetfuel.engine.core",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "title": "jetfuel.engine.core",
   "description": "Core library for the JetFuel engine.",
   "homepage": "https://github.com/peteromano/jetfuel.engine.core/wiki",
@@ -37,7 +37,7 @@
   "dependencies": {
     "grunt": "~0.3.11",
     "grunt-jasmine-task": "~0.2.0",
-    "jetfuel.grunt.tasks": "~0.3.2",
+    "jetfuel.grunt.tasks": "~0.3.4",
     "prompt": "~0.2.7"
   },
   "devDependencies": {
