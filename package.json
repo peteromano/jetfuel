@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "grunt": "~0.3.12",
-    "jetfuel.grunt.tasks": "~0.3.11",
+    "jetfuel.grunt.tasks": "~0.3.12",
     "prompt": "~0.2.7"
   },
   "devDependencies": {
