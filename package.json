@@ -1,6 +1,6 @@
 {
   "name": "jetfuel.engine.core",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "title": "jetfuel.engine.core",
   "description": "Core library for the JetFuel engine.",
   "homepage": "https://github.com/peteromano/jetfuel.engine.core/wiki",
@@ -38,6 +38,6 @@
   "dependencies": {
     "bower": "~0.2.0",
     "grunt": "~0.3.12",
-    "jetfuel.grunt.tasks": "~0.3.15"
+    "jetfuel.grunt.tasks": "~0.3.16"
   }
 }
