@@ -32,14 +32,11 @@
     "man": "./man"
   },
   "scripts": {
-    "test": "node ./test/index.test.js"
+    "test": "mocha ./test/index.js -R spec"
   },
   "dependencies": {
     "bower": "~0.2.0",
     "grunt": "~0.3.12",
     "jetfuel.grunt.tasks": "~0.3.15"
-  },
-  "devDependencies": {
-    "vows": "latest"
   }
 }
