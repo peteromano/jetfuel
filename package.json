@@ -1,9 +1,9 @@
 {
-  "name": "jetfuel.engine.core",
-  "version": "0.2.18",
-  "title": "jetfuel.engine.core",
-  "description": "Core library for the JetFuel engine.",
-  "homepage": "https://github.com/peteromano/jetfuel.engine.core/wiki",
+  "name": "jetfuel",
+  "version": "1.0.0pre-21",
+  "title": "JetFuel Engine",
+  "description": "JetFuel front-end development framework.",
+  "homepage": "https://github.com/peteromano/jetfuel/wiki",
   "keywords": ["jetfuel"],
   "author": {
     "name": "Pete Romano",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peteromano/jetfuel.engine.core"
+    "url": "https://github.com/peteromano/jetfuel"
   },
   "bugs": {
-    "url": "https://github.com/peteromano/jetfuel.engine.core/issues"
+    "url": "https://github.com/peteromano/jetfuel/issues"
   },
   "license": "MIT",
   "engines": {
@@ -36,8 +36,10 @@
     "test": "mocha ./test/index.js -R spec"
   },
   "dependencies": {
-    "bower": "~0.2.0",
     "grunt": "~0.3.12",
-    "jetfuel.grunt.tasks": "~0.3.17"
+    "bower": "~0.2.0",
+    "fs-extra": "~0.2.1",
+    "jetfuel-boilerplate": "~1.0.0pre-1",
+    "jetfuel-grunt-tasks": "~1.0.0pre-1"
   }
 }

@@ -1,4 +1,4 @@
-jetfuel.engine.core
-===================
+jetfuel
+=======
 
-Core library for the JetFuel engine.
+JetFuel front-end development framework.
