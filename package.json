@@ -21,7 +21,7 @@
   "engines": {
     "node": ">= 0.6.0"
   },
-  "main": "./lib",
+  "main": "./lib/jetfuel",
   "man": "./man/jetfuel.1",
   "bin": {
     "jetfuel": "./bin/jetfuel"
@@ -30,10 +30,10 @@
     "bin": "./bin",
     "lib": "./lib",
     "man": "./man",
-    "test": "test"
+    "test": "./test"
   },
   "scripts": {
-    "test": "npm up && mocha ./test/index.js -R spec"
+    "test": "npm up && mocha ./test/jetfuel.js -R list"
   },
   "dependencies": {
     "grunt": "~0.3.12",

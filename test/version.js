@@ -1,4 +1,4 @@
-var jetfuel = require('../lib'),
+var jetfuel = require('../lib/jetfuel'),
     assert = require('assert');
 
 describe('#version()', function() {
