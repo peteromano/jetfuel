@@ -1,8 +1,8 @@
 {
   "name": "jetfuel",
-  "version": "1.0.0pre-23",
-  "title": "JetFuel Engine",
-  "description": "JetFuel front-end development framework.",
+  "version": "1.0.0pre-24",
+  "title": "JetFuel",
+  "description": "JetFuel for front-end development framework.",
   "homepage": "https://github.com/peteromano/jetfuel/wiki",
   "keywords": ["jetfuel"],
   "author": {
