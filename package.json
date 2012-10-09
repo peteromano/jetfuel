@@ -1,6 +1,6 @@
 {
   "name": "jetfuel",
-  "version": "1.0.0pre-21",
+  "version": "1.0.0pre-22",
   "title": "JetFuel Engine",
   "description": "JetFuel front-end development framework.",
   "homepage": "https://github.com/peteromano/jetfuel/wiki",
@@ -39,7 +39,7 @@
     "grunt": "~0.3.12",
     "bower": "~0.2.0",
     "fs-extra": "~0.2.1",
-    "jetfuel-boilerplate": "~1.0.0pre-1",
+    "jetfuel-boilerplate": "~1.0.0pre-21",
     "jetfuel-grunt-tasks": "~1.0.0pre-1"
   }
 }
