@@ -33,7 +33,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha ./test/index.js -R spec"
+    "test": "npm up && mocha ./test/index.js -R spec"
   },
   "dependencies": {
     "grunt": "~0.3.12",

@@ -1,3 +1,3 @@
-describe('jetfuel.engine.core', function() {
+describe('jetfuel', function() {
     require('./version');
 });
