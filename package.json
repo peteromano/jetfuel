@@ -1,6 +1,6 @@
 {
   "name": "jetfuel",
-  "version": "1.0.0pre25",
+  "version": "1.0.0pre26",
   "title": "JetFuel",
   "description": "JetFuel for front-end development framework.",
   "homepage": "https://github.com/peteromano/jetfuel/wiki",
@@ -35,11 +35,12 @@
   "scripts": {
     "test": "npm up && mocha ./test/jetfuel.js -R list"
   },
+  "preferGlobal": true,
   "dependencies": {
     "grunt": "~0.3.12",
     "bower": "~0.2.0",
     "fs-extra": "~0.2.1",
-    "jetfuel-boilerplate": "~1.0.0pre22",
-    "jetfuel-grunt-tasks": "~1.0.1"
+    "jetfuel-boilerplate": "~1.0.0pre23",
+    "jetfuel-grunt-tasks": "~1.0.2"
   }
 }
