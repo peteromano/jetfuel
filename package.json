@@ -39,6 +39,7 @@
   "dependencies": {
     "grunt": "~0.3.12",
     "bower": "~0.2.0",
+    "colors": "*",
     "fs-extra": "~0.2.1",
     "jetfuel-boilerplate": "~1.0.0pre23",
     "jetfuel-grunt-tasks": "~1.0.2"
